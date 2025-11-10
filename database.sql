@@ -1,7 +1,7 @@
 \c school;
 
 -- dropping the table to be able to test in each run
-DROP students IF EXISTS;
+DROP TABLE IF EXISTS students;
 
 CREATE TABLE IF NOT EXISTS students (
     student_id SERIAL PRIMARY KEY,
