@@ -1,6 +1,6 @@
 \c school;
 
--- dropping table to be able to test in each run
+-- dropping the table to be able to test in each run
 DROP students IF EXISTS;
 
 CREATE TABLE IF NOT EXISTS students (
