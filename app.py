@@ -4,7 +4,7 @@ import psycopg2
 # Database connection dictionary
 db_connect = {
     'dbname': 'school',
-    'user': 'feyzabasaran',   # edit here (PostgreSQL username)
+    'user': 'username',   # edit here (PostgreSQL username)
     'password': '',           # edit here (PostgreSQL password)
     'host': 'localhost',
     'port': '5432'
@@ -15,6 +15,11 @@ def connect():
     return psycopg2.connect(**db_connect)
 
 # FUNCTIONS
+# In each function:
+# variable conn holds the connection to the database with the dictionary values above
+# cur variable is used to send SQL commands to PostgreSQL 
+# cursor and connection are closed at the end of each function
+
 def getAllStudents():
     conn = connect()
     cur = conn.cursor()
