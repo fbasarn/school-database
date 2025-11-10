@@ -16,8 +16,8 @@ def connect():
 
 # FUNCTIONS
 # In each function:
-# variable conn holds the connection to the database with the dictionary values above
-# cur variable is used to send SQL commands to PostgreSQL 
+# variable conn (connection) holds the connection to the database with the dictionary values above
+# cur (cursor) variable is used to send SQL commands to PostgreSQL 
 # cursor and connection are closed at the end of each function
 
 def getAllStudents():
