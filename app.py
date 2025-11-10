@@ -5,7 +5,7 @@ import psycopg2
 db_connect = {
     'dbname': 'school',
     'user': 'username',   # edit here (PostgreSQL username)
-    'password': '',           # edit here (PostgreSQL password)
+    'password': '',       # edit here (PostgreSQL password)
     'host': 'localhost',
     'port': '5432'
 }

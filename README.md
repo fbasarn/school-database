@@ -17,5 +17,5 @@ Create an application that connects to the SQL database to run Create, Read, Upd
     - run "createdb school" in your terminal
 - Run "psql -U your_username -d school -f database.sql"
 - Edit the app.py file and update the database configuration dictionary with your credentials
-- To see how the functions work, add a main() in app.py and call the functions with desired values
+- To see how the functions work, add a main() function in app.py and call the functions with desired values
 - Run "python3 app.py" to run the application and see the results
